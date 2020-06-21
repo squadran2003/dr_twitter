@@ -1,0 +1,15 @@
+.comments{
+    display: grid;
+    grid-template-columns: repeat(1,2fr);
+    /* padding: 10px; */
+
+
+}
+.new-comment{
+    display: grid;
+    grid-template-columns: 100%;
+    /* grid-column-gap: 10px; */
+    grid-row-gap: 5px;
+    /* padding:10px; */
+
+}

@@ -1,0 +1,31 @@
+.nav-container{
+    background-color: #463d54;
+    border-bottom: 4px solid #3d5450;
+    padding: 10px 10px;
+}
+.nav{
+    list-style-type: none;
+    display: flex;
+    flex-basis: 95%;
+    flex-direction: row wrap;
+    justify-content: flex-start;
+}
+.link{
+    margin-left:2%;
+   
+}
+.link:first-child{
+    margin-left: 1%;
+}
+.last-link{
+    margin-left:auto;
+}
+.nav a{
+    color:white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.nav a:hover{
+    color: lightgrey;
+}
